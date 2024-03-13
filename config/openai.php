@@ -25,4 +25,15 @@ return [
     */
 
     'request_timeout' => env('OPENAI_REQUEST_TIMEOUT', 30),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Base URI
+    |--------------------------------------------------------------------------
+    |
+    | The base URI used when interacting with the OpenAI API. It is sometimes
+    | useful to change this value for proxy and caching purposes.
+    */
+
+    'base_uri' => env('OPENAI_BASE_URI', 'api.openai.com/v1'),
 ];
